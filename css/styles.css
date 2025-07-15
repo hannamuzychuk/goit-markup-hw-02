@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    font-weight: 400;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+  text-decoration: none;  
+}
+.page-header li {
+    color:#2e2f42;
+    font-size: 12px;
+    line-height: 1.333;
+    letter-spacing: 0.04em;
+    font-size: regular;
+    text-shadow: 0px 4px 4px #2e2f42 ;
+}
+.page-header .link-studio:hover {
+    color: #4d5ae5;
+}
+.page-header .link-studio:active {
+    color: #4d5ae5;
+    text-decoration: underline;
+}
+.page-header .link-portfolio:hover {
+    color: #4d5ae5;
+}
+.page-header .link-contacts:hover {
+    color: #4d5ae5;
+}
+.address .link {
+    color: #434455;
+    font-size: 12px;
+     line-height: 1.333;
+     letter-spacing: 0.04em;
+     font-size: regular;
+}
+.address .link:hover {
+    color: #4d5ae5;
+}
+.title {
+    background-color: #2e2f42;
+}
+.page-title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.section-class {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.button-title {
+    color: #ffffff;
+    background-color: #4d5ae5;
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+.button-title:hover {
+    color: #ffffff;
+    background-color:#404bbf;
+}
+.benefits-subtitle {
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;  
+    font-weight: 400;  
+}
+.benefits .text {
+   font-size: 12px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   text-align: left;
+}
+.team {
+background-color: #f4f4fd;
+}
+img {
+    align-items: center;
+}
+.team-subtitle {
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+}
+.team .text {
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em; 
+}
+
+.portfolio-subtitle {
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    font-weight: 400;
+}
+.portfolio .text {
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+.page-footer {
+    background-color: #2e2f42;
+}
+.page-footer .text {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: left;
+}.accent {
+    color: #4d5ae5;
+}
+.logo {
+font-family: "Raleway, sans-serif";
+}
+.page-footer .logo {
+    color: #ffffff;
+}
