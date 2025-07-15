@@ -72,6 +72,7 @@ a {
     line-height: 16px;
     letter-spacing: 0.04em;
     text-align: center;
+    cursor: pointer;
 }
 .button-title:hover {
     color: #ffffff;
@@ -132,6 +133,7 @@ img {
 }
 .logo {
 font-family: "Raleway, sans-serif";
+color: #2e2f42;
 }
 .page-footer .logo {
     color: #ffffff;
