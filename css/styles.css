@@ -24,39 +24,19 @@ a {
     font-size: regular;
     text-shadow: 0px 4px 4px #2e2f42 ;
 }
-.page-header .link-studio {
+.page-header .link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.page-header .link-portfolio {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.page-header .link-contacts {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-.page-header .link-studio:hover {
+.page-header .link:hover:hover {
     color: #404bbf;
 }
-.page-header .link-studio:focus {
+.page-header .link:focus:focus {
     color: #404bbf;
     text-decoration: underline;
-}
-.page-header .link-portfolio:hover {
-    color: #4d5ae5;
-}
-.page-header .link-contacts:hover {
-    color: #4d5ae5;
 }
 .address .link {
     color: #434455;
@@ -68,7 +48,7 @@ a {
 }
 .address .link:hover,
 .address .link:focus {
-   background-color: #404bbf;
+   color: #404bbf;
 }
 .title {
     background-color: #2e2f42;
@@ -105,7 +85,7 @@ a {
     background-color:#404bbf;
 }
 .botton-title:focus {
-    background-color: #404bbf;;
+    background-color: #404bbf;
 }
 .benefits-subtitle {
     font-size: 20px;
@@ -131,16 +111,13 @@ background-color: #f4f4fd;
     font-weight: 500;
     line-height: 1.2;
     color: #2e2f42;
-    background-color: #ffffff;
 }
 .team .text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    background-color: #ffffff;
 }
-
-.image-team {
+.team li {
     background-color: #ffffff;
 }
 
