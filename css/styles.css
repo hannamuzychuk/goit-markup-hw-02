@@ -38,13 +38,15 @@ a {
     color: #404bbf;
     text-decoration: underline;
 }
+.contacts {
+    font-style: normal;
+    }
 .contacts .link {
     color: #434455;
     font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
      font-size: 400;
-     font-style: normal;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -80,9 +82,7 @@ a {
     text-align: center;
     cursor: pointer;
 }
-.button-title:hover {
-    background-color:#404bbf;
-}
+.button-title:hover,
 .botton-title:focus {
     background-color: #404bbf;
 }
