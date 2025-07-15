@@ -94,11 +94,8 @@ a {
     cursor: pointer;
 }
 
-.button-title:hover {
-background-color: #404bbf;
-}
-
-.botton-title:focus {
+.button-title:hover,
+.button-title:focus {
     background-color: #404bbf;
 }
 
