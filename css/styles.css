@@ -48,7 +48,7 @@ a {
 .page-header .link-studio:hover {
     color: #404bbf;
 }
-.page-header .link-studio:active {
+.page-header .link-studio:focus {
     color: #404bbf;
     text-decoration: underline;
 }
@@ -64,10 +64,11 @@ a {
      line-height: 1.5;
      letter-spacing: 0.02em;
      font-size: 400;
+     font-style: normal;
 }
 .address .link:hover,
 .address .link:focus {
-    color: #404bbf;
+   background-color: #404bbf;
 }
 .title {
     background-color: #2e2f42;
@@ -109,13 +110,15 @@ a {
 .benefits-subtitle {
     font-size: 20px;
     letter-spacing: 0.02em;
+    line-height: 1.2;
     text-align: left;  
-    font-weight: 400;  
+    font-weight: 500;
+    color: #2e2f42;  
 }
 .benefits .text {
-   font-size: 12px;
+   font-size: 16px;
    line-height: 1.5;
-   letter-spacing: 0.04em;
+   letter-spacing: 0.02em;
    text-align: left;
 }
 
@@ -128,12 +131,15 @@ background-color: #f4f4fd;
     font-weight: 500;
     line-height: 1.2;
     color: #2e2f42;
+    background-color: #ffffff;
 }
 .team .text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    background-color: #ffffff;
 }
+
 .image-team {
     background-color: #ffffff;
 }
@@ -169,7 +175,7 @@ font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
-letter-spacing: 0.03;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 }
@@ -177,6 +183,6 @@ color: #4d5ae5;
     color: #f4f4fd;
 }
 .page-footer .text {
-    color:f4f4fd;
+    color: #f4f4fd;
     letter-spacing: 0.02em;
 }
